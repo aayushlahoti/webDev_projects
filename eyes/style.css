@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(26, 24, 24);
+}
+.centred-div{
+    width: 350px;
+    height: 250px;
+    border: 2px solid #333;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+.left-eye{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.right-eye{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.left-pupil{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;/*this shows how much the pupil can move in the eye*/
+}
+.right-pupil{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;/*this shows how much the pupil can move in the eye*/
+}
